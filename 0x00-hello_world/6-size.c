@@ -7,12 +7,12 @@
 int main(void)
 {       
         int integerType;
-        char charType;
+        char charType;i
         float floatType;
-        printf("Size of char is: %ld", sizeof(charType));
-        printf("size of int is: %ld:", sizeof(interType));
+        printf("Size of char is: %lu.\n", sizeof(charType));
+        printf("size of int is: %lu.\n:", sizeof(integerType));
         printf("The size of a long int: %lu.\n", (unsigned long)sizeof(c));
         printf("Size of a long long int: %lu.\n", (unsigned long)sizeof(c));
-        printf("Size of float is: %ld", sizeof(floatType));
+        printf("Size of float is: %lu.\n", sizeof(floatType));
         return (0);
 }
