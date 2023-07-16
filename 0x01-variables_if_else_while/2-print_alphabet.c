@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * This is the main function
+ * main - Entry point
  *
  * It prints the alphabet in lowercase
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
