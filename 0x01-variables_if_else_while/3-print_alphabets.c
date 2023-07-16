@@ -14,10 +14,7 @@ for (c = 'a'; c <= 'z'; c++)
 {
 	putchar(c);
 }
-if (c <= 'z')
-{
-	putchar('\n');
-}
+putchar('\n');
 for (c = 'A'; c <= 'Z'; c++)
 {
 	putchar(c);
