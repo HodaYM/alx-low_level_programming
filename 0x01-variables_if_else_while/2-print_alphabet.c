@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-int main () {
+main() {
 char alphabet = 'a';
 
-while (alphabet <= 'z') {
-putchar("%c\n", alphabet);
+while (alphabet <= 'z')
+{
+putchar(alphabet);
+putchar('\n');
 alphabet++;
-}
 
-return(0);
+}
+return (0);
 }		
