@@ -8,18 +8,23 @@
  */
 int main(void)
 {
-	char c;
+char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++);
 {
-	       putchar(c);	
-{
-	if (c <= 'z')
-{
-		putchar('n');
+putchar(c);
 }
-	for (c = 'A'; c <= 'Z'; c++);
+
+if (c <= 'z')
+
 {
-		putchar(c);
-	return (0);
+putchar('n');
+
+}
+for (c = 'A'; c <= 'Z'; c++);
+{
+putchar(c);
+}
+
+return (0);
 }
