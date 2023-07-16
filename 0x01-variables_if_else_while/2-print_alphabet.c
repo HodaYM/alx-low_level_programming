@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main() {
+int main() {
 char alphabet = 'a';
 
 while (alphabet <= 'z')
