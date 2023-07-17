@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 15; i++)
 	{
-		char c = i + 0;
+		char c = i + '0';
 
 		putchar(c);
 	}
