@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int Num = 0;
+	int Num;
 	char Letter;
 
-	for (Num = 0; Num <= 15; Num++)
+	for (Num = 0; Num <= 10; Num++)
 {
 	Letter = Num + '0';
 		 putchar(Letter);
