@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-	int Num;
-	char Letter;
+int Num;
+char Letter;
 
-	for (Num = 0; Num <= 10; Num++)
+for (Num = 0; Num <= 9; Num++)
 {
-	Letter = Num + '0';
-		 putchar(Letter);
+Letter = Num + '0';
+putchar(Letter);
 }
-	for (Letter = 'a'; Letter <= 'f'; Letter++)
+for (Letter = 'a'; Letter <= 'f'; Letter++)
 {
-		putchar(Letter);
+putchar(Letter);
 }
-	putchar('\n');
-		return (0);
+putchar('\n');
+return (0);
 }
