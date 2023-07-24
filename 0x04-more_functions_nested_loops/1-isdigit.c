@@ -9,7 +9,6 @@ int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
 {
-_putchar('c');
 return (1);
 }
 return (0);
