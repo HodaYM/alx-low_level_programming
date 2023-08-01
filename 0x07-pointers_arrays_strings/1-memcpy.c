@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  *  _memcpy - Entry point
- *  @src: The source that will be copied from
- *  @n: The bytes
- * @dest: destenation
+ *  @src: input
+ *  @n: input
+ * @dest: input
  * Return: Always 0 (Success)
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
