@@ -4,6 +4,7 @@
  * _strpbrk - Entry point
  * @s: A string contains the characters from accept
  * @accept: A string that containts characters
+ * Retunrn: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
 {
