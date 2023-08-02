@@ -4,7 +4,9 @@
  * _strpbrk - Entry point
  * @s: An input
  * @accept: An input
- * Return: Always 0 (Success)
+ * Return:
+ * Pointer to to the byte in s that matches one of the bytes in accept
+ * Or NULL if no such byte is found
  */
 
 char *_strpbrk(char *s, char *accept)
