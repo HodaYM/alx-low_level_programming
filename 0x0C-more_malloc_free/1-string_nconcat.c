@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * *string_nconcat - A function that concatenates two strings
@@ -13,32 +12,34 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *str;
-unsigned int l, k, s1_len, s2_len;
-/* checking if the strings passing null */
+unsigned int l = 0, k = 0, m = 0, g = 0;
 if (s1 == NULL)
 s2 = "";
 if (s2 == NULL)
 s2 = "";
-/* computing the length of the strings  */
-for (s1_len = 0; s1[s1_len] != '\0'; s1_len++)
-;
-for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
-;
-/* reserve memory for cases 1 & 2 */
-str = malloc(s1_len + n + 1);
-if (str == NULL)
-{
-return (NULL);
-}
-/* copy the first string into str */
-for (l = 0; s1[l] != '\0'; l++)
-str[l] = s1[l];
-/*copy the second string into str */
-for (k = 0; k < n; k++)
-{
-str[l] = s2[k];
+while (s1[l])
 l++;
+while (s2[m])
+m++;
+if (n >= m)
+g = l + m;
+else
+g = l + n;
+str = malloc(sizeof(char) * g + 1);
+if (str == NULL)
+return (NULL);
+m = 0;
+while (k <= g)
+{
+if (k <= l)
+str[k] = s1[k];
+if (k >= l)
+{
+str[k] = s2[m];
+m++;
 }
-str[l] = '\0';
+k++;
+}
+str[k] = '\0';
 return (str);
 }
