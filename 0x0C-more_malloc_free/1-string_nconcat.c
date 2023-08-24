@@ -3,10 +3,12 @@
 #include <stdlib.h>
 /**
  * *string_nconcat - A function that concatenates two strings
- * @s1: A pointer
- * @s2: A pointer
- * @n: A number of bytes
+ * @s1: A pointer to the 1st string
+ * @s2: A pointer to the 2nd string
+ * @n: A number of bytes from n2 to concatenate
+ *
  * Return: A pointer to the newly allocated space in memory
+ * contains the concatenated string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
