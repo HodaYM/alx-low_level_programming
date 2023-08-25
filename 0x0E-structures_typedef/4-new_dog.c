@@ -44,7 +44,7 @@ return (NULL);
 dog = (dog_t *)malloc(sizeof(dog_t));
 if (dog == NULL)
 return (NULL);
-dog ->name = malloc(sizeof(char) * (_strlen(name) + 1));
+dog->name = malloc(sizeof(char) * (_strlen(name) + 1));
 if ((*dog).name == NULL)
 {
 free(dog);
